@@ -7,12 +7,22 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Check your how your stock performing ?</h1>
-    <input type="number" id="initial-price" placeholder="Put your initial buying price."/>
-    <input type="number" id="stock-quantity" placeholder="How many stocks you have ?"/>
-    <input type="number" id="current-price" placeholder="What's the current price ?"/>
+      <main class="main-container">
+    <h1>Check how your stock performing ?</h1>
+    <div>
+        <input type="number" class="input-angles" id="initial-price" placeholder="Put your initial buying price."/>
+      </div>
+    <div>  
+        <input type="number" class="input-angles" id="stock-quantity" placeholder="How many stocks you have ?"/>
+      </div>
+    <div>
+        <input type="number" class="input-angles" id="current-price" placeholder="What's the current price ?"/>
+      </div>
     <button id="check-btn">Check</button>
-    <div id="result-box"></div>
+    <div class="output">
+      <h2 id="result-box"></h2>
+    </div>
+      </main>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,5 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Dancing+Script:wght@700&family=Lato&family=Macondo&family=Pacifico&display=swap');
+
 *{
-  width: 50vw;
-  margin: auto;
+/*   width: 50vw; */
+  margin: 0px auto;
   padding: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primary-color: #187bcd;
+}
+
+
+/**main**/
+h1{
+    font-size: 40px;
+    color: var(--primary-color);
+  border-color: 1px solid var(--primary-color);
+}
+
+.main-container{
+    margin: 2rem auto;
+    text-align: center;
+    width: 90%;
+}
+
+.main-container h1{
+ margin: 1rem;
+}
+
+/* input */
+.input-angles{
+    width: 10cm;
+    height: 1cm;
+    border-color: var(--primary-color) ;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* button */
+#check-btn{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border-color: 1px solid var(--primary-color);
+    color: white;
+    margin-top: 2rem;
+    font-size: larger; 
+}
+
+/* output */
+.output{
+    padding: 3rem;
+    font-size: larger;
 }

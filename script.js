@@ -23,7 +23,7 @@ function calculateProfitAndLoss(e){
             
             var[loss, lossPercentage] = calculateLoss(costPrice, sellingPrice);
             var netLoss = loss * numberOfStocks;
-            resultBox.innerText = `Whoops!! Your loss is ${netLoss} and loss percentage is ${lossPercentage.toFixed(2)}% :(`
+            resultBox.innerText = `Whoops!! Your loss is ${netLoss} and loss percentage is ${lossPercentage.toFixed(2)}% :(`;
             resultBox.style.color = "red";
             } 
 

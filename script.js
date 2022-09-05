@@ -7,9 +7,9 @@ const resultBox = document.querySelector("#result-box");
 
 
 function calculateProfitAndLoss(e){
-  var costPrice = buyingPrice.value;
-  var numberOfStocks = stockQuantity.value;
-  var sellingPrice = currentPrice.value;
+  var costPrice = Number(buyingPrice.value);
+  var numberOfStocks = Number(stockQuantity.value);
+  var sellingPrice = Number(currentPrice.value);
   
   if(costPrice !== ''){
      if(numberOfStocks !== ''){

@@ -5,7 +5,7 @@ const checkBtn = document.querySelector("#check-btn");
 const resultBox = document.querySelector("#result-box");
 
 
-
+//Main function
 function calculateProfitAndLoss(e){
   var costPrice = Number(buyingPrice.value);
   var numberOfStocks = Number(stockQuantity.value);
@@ -43,6 +43,7 @@ function calculateProfitAndLoss(e){
   }
 }
 
+//calculating profit
 function calculateProfit(costPrice, sellingPrice){
    var profit = sellingPrice - costPrice;
    var  profitPercentage = (profit/costPrice)*100;
@@ -50,6 +51,7 @@ function calculateProfit(costPrice, sellingPrice){
     return [profit, profitPercentage];
 }
 
+//calculating loss
 function calculateLoss(costPrice, sellingPrice){
     var loss = costPrice - sellingPrice;
    var  lossPercentage = (loss/costPrice)*100;
